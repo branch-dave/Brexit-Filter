@@ -1,17 +1,17 @@
 {
   "manifest_version": 2,
-  "name": "Trump Filter",
+  "name": "Brexit Filter",
   "version": "1.0",
-  "description": "Remove Donald Trump from the Internet.",
+  "description": "Remove Brexit from the Internet.",
   "page_action" :
   {
     "default_icon" : "images/icon-19x19.png",
-    "default_title" : "Warning: Trump is on this page!"
+    "default_title" : "Watch out! Contains Brexit"
   },
   "permissions": [
     "tabs",
     "storage"
-	],
+  ],
   "content_scripts": [
     { 
       "matches": [
@@ -28,7 +28,7 @@
     }
   ],
   "icons" : {
-  	"16": "images/icon-16x16.png",
+    "16": "images/icon-16x16.png",
     "19": "images/icon-19x19.png",
     "48": "images/icon-48x48.png",
     "128": "images/icon-128x128.png",

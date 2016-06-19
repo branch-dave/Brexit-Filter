@@ -5,24 +5,24 @@
  */
 
 // Variables
-var regex = /Trump/i;
+var regex = /Brexit/i;
 var search = regex.exec(document.body.innerText);
 
 
 // Functions
 function filterMild() {
 	console.log("Filtering Trump with Mild filter...");
-	return $(":contains('Trump'), :contains('TRUMP'), :contains('trump')").filter("h1,h2,h3,h4,h5,p,span,li");
+	return $(":contains('brexit'), :contains('BREXIT'), :contains('brexit'), :contains('Brexit')").filter("h1,h2,h3,h4,h5,p,span,li");
 }
 
 function filterDefault () {
 	console.log("Filtering Trump with Default filter...");
-	return $(":contains('Trump'), :contains('TRUMP'), :contains('trump')").filter(":only-child").closest('div');
+	return $(":contains('brexit'), :contains('BREXIT'), :contains('brexit'), :contains('Brexit')").filter(":only-child").closest('div');
 }
 
 function filterVindictive() {
 	console.log("Filtering Trump with Vindictive filter...");
-	return $(":contains('Trump'), :contains('TRUMP'), :contains('trump')").filter(":not('body'):not('html')");
+	return $(":contains('brexit'), :contains('BREXIT'), :contains('brexit'), :contains('Brexit')").filter(":not('body'):not('html')");
 }
 
 function getElements(filter) {
@@ -43,7 +43,7 @@ function filterElements(elements) {
 
 // Implementation
 if (search) {
-   console.log("Donald Trump found on page! - Searching for elements...");
+   console.log("brexit found on page! - Searching for elements...");
    chrome.storage.sync.get({
      filter: 'aggro',
    }, function(items) {

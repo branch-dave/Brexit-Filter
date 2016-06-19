@@ -12,7 +12,7 @@ Here's a howto to get the source of the Chrome Extension running in your environ
 
 1) Grab latest source
 <pre>
-git clone https://github.com/branch-dave/Trump-Filter.git
+git clone https://github.com/branch-dave/Brexit-Filter.git
 </pre>
 
 2) Enable Chrome Extension in your Chrome install

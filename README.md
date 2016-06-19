@@ -6,7 +6,7 @@ Waiting on Approval from the Chrome App store before being able to put a live li
 
 Installation 
 -------------------------
-Want to hack on the Trump Filter?  Sweet!
+Want to hack on the Brexit Filter? 
 
 Here's a howto to get the source of the Chrome Extension running in your environment.
 

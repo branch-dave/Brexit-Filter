@@ -2,7 +2,7 @@ Brexit Filter
 ================================
 A Chrome extension that removes Brexit from the Internet. A Fork of Trump Filter.
 
-Waiting on Approval from the Chrome App store before being able to put a live link.
+Brexit filter was not approved by the Chrome Web Store in time, here's how to download it manually.
 
 Installation 
 -------------------------
@@ -14,7 +14,10 @@ Here's a howto to get the source of the Chrome Extension running in your environ
 <pre>
 git clone https://github.com/branch-dave/Brexit-Filter.git
 </pre>
-
+Or download & unpack the zip
+<pre>
+https://github.com/branch-dave/Brexit-Filter/archive/master.zip
+</pre>
 2) Enable Chrome Extension in your Chrome install
 <pre>
 Open Chrome.
